@@ -2,6 +2,7 @@
 
 // First approach : fiddling with bitmask and bitwise operator
 // Clever approach : Use of ^ 1 to flip 1 ^ 1 = 0, 0 ^ 1 = 1
+// Time Complexity : O(1)
 
 long SwapBits(long x, int i, int j) 
 {
