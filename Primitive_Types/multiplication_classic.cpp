@@ -5,6 +5,7 @@
 // Efficient Method - normal paper-multiplication method but for bits
 // Multiplication = Shift left x (by ith bit value of y) and add them
 // Addition logic = full adder logic -> Look LOGIC GATES diagram
+// Time Complexity : Addition = O(n) Multiplication = O(n^2)
 
 unsigned Multiply(unsigned x, unsigned y) 
 {
